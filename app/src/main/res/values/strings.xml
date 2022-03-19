@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HealthManagementApp</string>
+    <string name="login">登    录</string>
+    <string name="register">注    册</string>
+    <string name="forgetpass">忘记密码？</string>
+    <string name="jump">跳过(3)</string>
+</resources>
