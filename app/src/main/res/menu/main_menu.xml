@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--首页（跳转到主模块）-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_index"
+            android:icon="@mipmap/nav_index"
+            android:title="首页" />
+    </group>
+
+    <!--个人信息管理模块：登录退出，个人信息查看修改-->
+
+        <item android:title="我的">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@mipmap/nav_login"
+                    android:title="登录" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@mipmap/nav_logout"
+                    android:title="退出" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@mipmap/nav_profile"
+                    android:title="个人信息" />
+                </group>
+            </menu>
+        </item>
+
+
+    <!--生理信息检测与显示模块（主模块）：运动数据监控与显示、睡眠时间设置和提醒、血压、血糖、体重记录-->
+
+
+        <item android:title="生理信息">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_record"
+                    android:icon="@mipmap/nav_record"
+                    android:title="健康记录" />
+                <item
+                    android:id="@+id/clock"
+                    android:icon="@mipmap/nav_clock"
+                    android:title="闹铃" />
+                </group>
+            </menu>
+        </item>
+
+    <!--设置模块：设置睡眠时长、运动时长、体重、血压、血糖的目标值-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/nav_setting"
+            android:title="设置" />
+    </group>
+
+    <!--服务模块：挂号、在线医生、健康咨询-->
+
+        <item android:title="服务">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_guahao"
+                    android:icon="@mipmap/nav_guahao"
+                    android:title="挂号" />
+                <item
+                    android:id="@+id/nav_doctor"
+                    android:icon="@mipmap/nav_doctor"
+                    android:title="在线医生" />
+                <item
+                    android:id="@+id/nav_consult"
+                    android:icon="@mipmap/nav_consult"
+                    android:title="健康咨询" />
+                </group>
+            </menu>
+        </item>
+
+
+    <!--信息预警模块：血压、血糖、体重超标预警-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_warning"
+            android:icon="@mipmap/nav_warning"
+            android:title="健康预警" />
+    </group>
+
+
+</menu>
